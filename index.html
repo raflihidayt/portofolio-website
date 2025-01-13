@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Rafli</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+
+        <a href="" class="navbar__logo"><i class="ri-code-s-slash-fill"></i>RafliPortofolio.</a>
+
+        <div class="navbar__menu">
+            <a href="#" class="navbar__link">Home</a>
+            <a href="#" class="navbar__link">Projects</a>
+            <a href="#" class="navbar__link">Skills</a>
+            <a href="#" class="navbar__link">About</a>
+        </div>
+
+        <div class="navbar__actions">
+            <div class="navbar__location">
+                <h5>Indonesia</h5>
+                <p>Jakarta</p>
+            </div>
+            <button class="btn">Id</button>
+        </div>
+
+    </nav>
+
+    <section class="hero">
+        
+        <div class="hero__content">
+            <img src="assets/profile.png" alt="Profile Me" class="hero__image">
+            <h2>Hello I'm Rafli Hidayat</h2>
+        </div>
+
+        <div class="hero__intro">
+            <h3>IT Enthusiast and Fresh Graduate with Diverse Digital Skills.</h3>
+            <p>Fueling my passion for innovation and creativity, dedicated to making an impact in the world of IT.</p>
+            <div class="hero__actions">
+                <button class="btn" onclick="sendEmail()">Work With Me</button>
+                <a href="assets/Muhamad Rafli Hidayat_CV.pdf" download=""><button class="btn btn--secondary">See My CV</button></a>
+            </div>
+        </div>
+
+        <div class="hero__socials">
+            <a href="https://www.instagram.com/raflihidayt/" target="_blank"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.linkedin.com/in/raflihidayt" target="_blank"><i class="ri-linkedin-box-line"></i></a>
+            <a href="https://github.com/raflihidayt" target="_blank"><i class="ri-github-fill"></i></a>
+            <a href="https://www.youtube.com/@RafForstGame28" target="_blank"><i class="ri-youtube-line"></i></a>
+        </div>
+
+    </section>
+
+    <section class="skills">
+
+        <div class="skills_desc">
+            <h3>Experienced Multiple Projects and Technologies</h3>
+            <p>My journey has allowed me to explore and develop skills in web development, graphic design, and mobile application development.</p>
+
+            <div class="skills__action">
+                <a href="mailto:raflimobile23@gmail.com" style="text-decoration: none;">
+                    <button class="btn">Work With Me</button>
+                </a>
+                <a href="mailto:nsigaming31@gmail.com"><button class="btn btn--secondary">Send Email</button></a>
+            </div>
+        </div>
+
+        <div class="skills_stats">
+            <i class="ri-window-line"></i>
+            <div class="skills__info">
+                <h5>3.</h5>
+                <p>Graphic Designer</p>
+            </div>
+            <i class="ri-android-line"></i>
+            <div class="skills__info">
+                <h5>4.</h5>
+                <p>Remote Projects</p>
+            </div>
+            <div class="skills__info">
+                <h5>1.</h5>
+                <p>Website Projects</p>
+            </div>     
+            <i class="ri-artboard-2-line"></i>
+            <div class="skills__info">
+                <h5>2.</h5>
+                <p>Mobile Development</p>
+            </div>
+            <i class="ri-remote-control-line"></i>
+        </div>
+
+    </section>
+
+    <section class="showcase">
+        <div class="showcase__header">
+            <h3>Showcase My Projects</h3>
+            <a href="https://github.com/raflihidayt" target="_blank"><button class="btn">See My Projects</button></a>
+        </div>
+
+        <div class="showcase__category">
+            <section class="category">
+                <div class="category__header">
+                    <div class="category__tittle">
+                        <i class="ri-macbook-line"></i>
+                        <h4>My Projects</h4>
+                    </div>
+                    <div class="category__desc">
+                        <p>Each project reflects my commitment to delivering innovative solutions for technology and design. Explore my portfolio to see how I create impactful digital experiences.</p>
+                        <a href="https://github.com/raflihidayt" target="_blank"><i class="ri-share-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="category__projects">
+                    <div class="project-card">
+                        <img src="assets/item-1.jpg" alt="Depok App Project" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>Depok App</h5>
+                            <p>August 2023</p>
+                        </div>
+                        <p class="project-card__desc">
+                            Depok App is an Android application designed to provide easy access to information and services in Depok, offering a user-friendly experience to meet local needs efficiently.
+                        </p>
+                        <a href="https://github.com/raflihidayt/depok-app" target="_blank"><button class="btn">View Code Demo</button></a>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assets/item-2.jpg" alt="Expert System App" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>System Expert App</h5>
+                            <p>August 2024</p>
+                        </div>
+                        <p class="project-card__desc">
+                            System Expert App is an Android application that utilizes expert systems to diagnose common diseases and provide tailored health recommendations with ease and accuracy.
+                        </p>
+                        <a href="https://github.com/raflihidayt/expert-system-forwardchainning" target="_blank"><button class="btn">View Code Demo</button></a>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assets/item-3.jpg" alt="E-wedding project" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>E-Wedding</h5>
+                            <p>July 2024</p>
+                        </div>
+                        <p class="project-card__desc">
+                            E-Wedding is a website designed to simplify wedding planning, offering features to manage guest lists, schedules, and vendors, ensuring a seamless and memorable celebration.
+                        </p>
+                        <a href="https://github.com/raflihidayt/e-wadding" target="_blank"><button class="btn">View Code Demo</button></a>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assets/item-4.jpg" alt="E-madding project" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>E-Madding</h5>
+                            <p>December 2023</p>
+                        </div>
+                        <p class="project-card__desc">
+                            E-Madding is a platform designed to streamline event planning and management, providing tools for organizing schedules, guest lists, and vendor coordination efficiently.
+                        </p>
+                        <a href="https://github.com/raflihidayt/e-madding" target="_blank"><button class="btn">View Code Demo</button></a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="showcase_category">
+                <div class="category__header">
+                    <div class="category__tittle">
+                        <i class="ri-layout-2-line"></i>
+                        <h4>Other Projects</h4>
+                    </div>
+                    <div class="category__desc">
+                        <p>Each project reflects my commitment to delivering innovative solutions for technology and design. Explore my portfolio to see how I create impactful digital experiences.</p>
+                        <a href="https://github.com/raflihidayt" target="_blank"><i class="ri-share-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="category__projects">
+                    <div class="project-card">
+                        <img src="assets/item-5.png" alt="AFC UMKM web" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>Arya Fried Chicken</h5>
+                            <p>January 2024</p>
+                        </div>
+                        <p class="project-card__desc">
+                            Arya Fried Chicken UMKM Web is a website designed to support small businesses, showcasing Arya Fried Chicken's menu, promotions, and online ordering to enhance customer engagement
+                        </p>
+                        <a href="https://aryafriedchicken.wordpress.com/" target="_blank">
+                            <button class="btn">View Code Demo</button>
+                          </a>                          
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assets/item-6.jpg" alt="Asi Ekslusif Web" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>Asi Ekslusif</h5>
+                            <p>June 2024</p>
+                        </div>
+                        <p class="project-card__desc">
+                            The Exclusive Breastfeeding Information Web is an interactive platform featuring educational content and animated videos, provide essential guidance on the benefits of exclusive breastfeeding.
+                        </p>
+                        <a href="https://65be2f21e5d39f842a9ad57d--calm-moxie-a547bc.netlify.app/" target="_blank">
+                            <button class="btn">View Code Demo</button>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assets/item-7.jpg" alt="Web Company Design" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>Company Profile</h5>
+                            <p>Dec 2023</p>
+                        </div>
+                        <p class="project-card__desc">
+                            The Company Profile website presents an overview of the organization's vision, mission, services, and achievements, offering a professional and engaging platform to connect with clients and stakeholders
+                        </p>
+                        <a href="https://drive.google.com/file/d/1TJqVbxJVS4BUINJ_QcSA2tfO6JjcIRf2/view?usp=drive_link" target="_blank"><button class="btn">View Code Demo</button>
+                    </div></a>
+
+                    <div class="project-card">
+                        <img src="assets/item-8.jpg" alt="Proposal Design" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>Proposal Design</h5>
+                            <p>August 2024</p>
+                        </div>
+                        <p class="project-card__desc">
+                            The Client Profile design presents a personalized and visually appealing layout, showcasing key information, services, and achievements, tailored to highlight the unique aspects of each client’s needs and preferences.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1eP3gW2RRbW9elhz9feJN3LmGCHmwgaED/view?usp=drive_link" target="_blank"><button class="btn">View Code Demo</button></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="career">
+        <div class="career__experience">
+            <h3>My Experience</h3>
+            <div class="experience">
+                <i class="ri-graduation-cap-line"></i>
+                <div class="exp_info">
+                    <h5>Fresh Graduate Informatika at <span>Gunadarma University</span></h5>
+                    <p>Sept 2020 -  August 2024</p>
+                </div>
+            </div>
+
+            <div class="experience">
+                <i class="ri-git-repository-commits-line"></i>
+                <div class="exp_info">
+                    <h5>Scientific Writing at <span>Gunadarma University</span></h5>
+                    <p>Mar 2023 -  August 2023</p>
+                </div>
+            </div>
+
+            <div class="experience">
+                <i class="ri-pen-nib-line"></i>
+                <div class="exp_info">
+                    <h5>Freelancer at <span>LYNK.id</span></h5>
+                    <p>Sept 2024 -  Present</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="career__certi">
+            <h3>My Certificate</h3>
+            <div class="certi">
+                <div>
+                    <i class="ri-window-fill"></i>
+                    <div class="certi_info">
+                        <h5>Web Development Bootcamp at <span>UDEMY</span></h5>
+                        <p>October 2024</p>
+                    </div>
+                </div>
+                <a href=""><i class="ri-external-link-line"></i></a>
+            </div>
+
+            <div class="certi">
+                <div>
+                    <i class="ri-window-fill"></i>
+                    <div class="certi_info">
+                        <h5>Junior Web Programmer at <span>BNSP</span></h5>
+                        <p>September 2024</p>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/file/d/1USyPgu6Y4iL8yKGFTbH4W7kEDAR8E13a/view?usp=drive_link" target="_blank"><i class="ri-external-link-line"></i></a>
+            </div>
+
+            <div class="certi">
+                <div>
+                    <i class="ri-database-2-line"></i>
+                    <div class="certi_info">
+                        <h5>Oracle Intermediate at <span>LPUG</span></h5>
+                        <p>Febuary 2024</p>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/file/d/1UmcJNL4Kj1qbbt0PH3jGtPXn5ySyAX2r/view?usp=sharing" target="_blank"><i class="ri-external-link-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h5>Get a Projects</h5>
+        <h2>Let's Work Together</h2>
+        <a href="mailto:raflimobile23@gmail.com" target="_blank"><button class="btn">Send Message</button></a>
+        <p>Phone: <span>+6287771602953</span></p>
+    </section>
+
+    <section class="footer">
+        <div class="footer__brand">
+            <a href="#">Rafli.</a>
+            <p>@ 2024 Muhamad Rafli Hidayat</p>
+        </div>
+        <div class="footer__links">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Skills</a>
+            <a href="#">About</a>
+        </div>
+    </section>
+
+    <script>
+        function sendEmail() {
+          window.location.href = "mailto:raflimobile23@gmail.com?subject=Work%20With%20Me&body=Hello,%20I%20am%20interested%20in%20working%20with%20you.";
+        }
+      </script>
+
+</body>
+</html>
